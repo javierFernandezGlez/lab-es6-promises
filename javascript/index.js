@@ -112,7 +112,7 @@ Promise.all(arr)
     }
     document.querySelector("#brusselsSprouts").innerHTML += `<li>Brussels sprouts are ready!</li>`;
     document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
-    document.querySelector("#brusselsSproutsImg").style.transform = "rotate(-90deg)"
+    //document.querySelector("#brusselsSproutsImg").style.transform = "rotate(-90deg)"
 
   })
   .catch((err) => console.log(error));
